@@ -52,9 +52,9 @@ export default function Home() {
             I’ve always had a knack for solving problems and I feel that software does just that. I chose a career in software development because I find satisfaction in helping consumers, companies, and organizations find the solutions they need—from creating spreadsheets to designing skyscrapers. Additionally, I have experience with a variety of programming languages and enjoy working with them. I am a graduate at the University Of Witwatersrand with a degree in Computer Science, I currently work as an Integration Developer at Striata in Johannesburg.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <a href="https://twitter.com/" target="_blank"><AiFillTwitterCircle /></a>
-              <a href="https://linkedin.com/" target="_blank"><AiFillLinkedin /></a>
-              <a href="https://youtube.com/" target="_blank"><AiFillYoutube /></a>
+              <a href="https://twitter.com/" target="_blank" rel="noreferrer"><AiFillTwitterCircle /></a>
+              <a href="https://linkedin.com/" target="_blank" rel="noreferrer"><AiFillLinkedin /></a>
+              <a href="https://youtube.com/" target="_blank" rel="noreferrer"><AiFillYoutube /></a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
               <Image src={deved} layout="fill" objectFit="cover" />
